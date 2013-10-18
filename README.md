@@ -5,7 +5,7 @@ Welcome to the Big Travel Data hackathon!
 
 ## Getting the SSH private key
 
-In order to access the servers, you'll need to get the SSH keys. [Download it](http://10.101.49.148/hackreduce.pem) with curl:
+In order to access the servers, you'll need to get the SSH keys. [Download it through your browser](http://10.101.49.148/hackreduce.pem) or with curl:
 
     $ curl -o ~/.ssh/hackreduce.pem -O http://10.101.49.148/hackreduce.pem
     $ chmod 600 ~/.ssh/hackreduce.pem
@@ -13,6 +13,8 @@ In order to access the servers, you'll need to get the SSH keys. [Download it](h
 Now you can access the servers with the following command:
 
     $ ssh -i ~/.ssh/hackreduce.pem hackreduce@server
+
+We'll be assigning each team/person a set of servers at the event.
 
 
 ## Accessing the datasets from the clusters
