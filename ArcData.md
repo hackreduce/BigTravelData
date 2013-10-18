@@ -1,6 +1,6 @@
 # ARC
 
-* Chuck Thackston, Managing Director – Data Research and Analytics (head-shot attached)
+* Chuck Thackston, Managing Director – Data Research and Analytics
 * Vincent Smith, Senior Data Analyst and Statistician
 
 Data provided is one full year (2011) of global ticket transactions hosted by ARC in the COMPASS® database. The ticket sale transactions will include data from travel agencies as well as from direct airline sales.  While not all airlines’ data is included it is estimated that over 75% of the world’s issued airline tickets are included in the dataset provided.  The data will include “ticket-level” data that includes fare information for the entire ticket.  It will also include (in a separate dataset) all the “coupon-level” data that includes the routing of the journey and all the flights included in the ticket.  Additionally, reference tables (i.e. currency conversion) will be provided to allow normalizing the data for financial analysis.  In total the estimated ticket count will be over 500 million ticket transactions and over 1.5 billion individual flight coupons.
