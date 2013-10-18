@@ -5,9 +5,9 @@ Welcome to the Big Travel Data hackathon!
 
 ## Getting the SSH private key
 
-In order to access the servers, you'll need to get the SSH keys. `Note: This will only work at the HackReduce building`
+`Note: This will only work at the HackReduce building`
 
-[Download it through your browser](http://10.101.49.148/hackreduce.pem) or with curl:
+In order to access the servers, you'll need to get the SSH keys. [Download it through your browser](http://10.101.49.148/hackreduce.pem) or with curl:
 
     $ curl -o ~/.ssh/hackreduce.pem -O http://10.101.49.148/hackreduce.pem
     $ chmod 600 ~/.ssh/hackreduce.pem
@@ -33,6 +33,8 @@ These directories are read only. A scratch space is available under the followin
 This is a globally writable directory, so be careful not to overwrite your competitor's data!
 
 ## Accessing the datasets from within HackReduce
+
+`Note: This will only work at the HackReduce building`
 
 While you're here at the HackReduce space, you can download the dataset files from the following server:
 
