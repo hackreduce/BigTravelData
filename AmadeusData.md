@@ -1,8 +1,4 @@
-# BigTravelData
-
-Big Travel Data hackathon 
-
-## Amadeus
+# Amadeus
 
 * Tadhg Pearson - Senior Software Developer (note: may also participate to the event)
 
@@ -10,7 +6,7 @@ Big Travel Data hackathon
 
 * Landry Holi - Head of Corporate Innovation (still to be confirmed) - Please refer to Linkedin photos for Tadhg, myself and to the attached photo for Benjamin. Other remark: In addition, Amadeus plans to set up a hackers team that will participate to the Thack itself.
 
-data set(s): a paragraph describing the data, its context to your business and relevance to both a travel and non-travel data science audience
+## Data sets
 
 The data refers to airline search queries performed through online and offline travel agencies, this, during max 6 months in 2011 (still under final review by our IP legal team) as off September 2011, and throughout the world. Each air search query will be defined by  the date / time the query was made, an Origin & Destination (i.e. travelling from /to), the request date of the trip, potentially booking code requested (rem. booking code outlines to some extent the class of service, i.e. business vs. economy), and also eventually specific carrier requested. Note that the request could be made of multiple air segments (up to 6 segments max), e.g. Segment 1: from New York to Chicago and Segment 2: from Chicago to Los Angeles.
 
