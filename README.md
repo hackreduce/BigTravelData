@@ -48,8 +48,16 @@ Some goodies are provided if you need them: ElasticSearch cluster and a Redis in
 
 ### ElasticSearch
 
-The elasticsearch cluster is publicly available on the following nodes:
+The elasticsearch cluster is publicly available on the following nodes (on the default ports):
 
-    cluster-7-slave-[01-11].sl.hackreduce.net
+    cluster-7-slave-[01-10].sl.hackreduce.net
 
 The ElasticSearch Head plugin is available, so you can point your browser here <http://cluster-7-slave-01.sl.hackreduce.net:9200/_plugin/head>
+
+
+### Redis
+
+The Redis instance is available on the following node (on the default port):
+
+    cluster-7-slave-11.sl.hackreduce.net
+
