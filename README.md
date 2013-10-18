@@ -17,7 +17,16 @@ Now you can access the servers with the following command:
 
 ## Accessing the datasets from the clusters
 
+Every node has access to the datasets from the following directories:
 
+    /mnt/hack_data_01
+    /mnt/hack_data_02
+
+These directories are read only. A scratch space is available under the following directory:
+
+    /mnt/teams
+
+This is a globally writable directory, so be careful not to overwrite your competitor's data!
 
 ## Accessing the datasets from within HackReduce
 
