@@ -159,6 +159,10 @@ flight_id,carrier_fs_code,carrier_iata_code,carrier_icao_code,flight_number,tail
 
 ```
 
+## Note about Scheduled Airtime
+If Scheduled Airtime is provided in the data record it is sourced from flight plans provided by the carrier to the FAA.
+
+
 Using data from other providers to track demand, it might be possible to spot geographic regions and/or dates when the capacity fell behind demand.
 
 * `AVG_FARE file`: The average ticketed fare value by ticket date, by cabin class, and by O&D market for all markets ticketed on that date for full year 2011.
