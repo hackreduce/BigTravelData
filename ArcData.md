@@ -23,3 +23,5 @@ Some specific models or studies that could be done with this data include:
 * Is there a logical grouping of markets that can be used for analysis that have similar profiles … other than just number of travelers?  This could potentially identify test markets for airlines’ new products or similar markets for A-B level testing at an operational level.
 * Does a schedule change (moving a flight earlier or later) have a material difference on the number of passengers?
 * If a flight has a chronic history of being “late”, does this have a short-term or long-term impact on purchase behavior?  [ Note that this would require correlation with operational performance data from FlightStats. ]
+
+This document that defines what cabins map to which class of service: https://docs.google.com/file/d/1qZtl3H6QGUX0X2Ukap_YEm3KiFxP4HY1wa0bZsxFqwDh5PSDYq3TrP2yArxv/edit?usp=sharing
