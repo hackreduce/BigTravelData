@@ -148,7 +148,8 @@ When one flight is marketed by other carriers, they FlightStats data will create
 Each of these records will have the same 'flight_id' which is created by FlightStats.  Only one of these records 
 will indicate 'is_codeshare=f'
 
-Example below.  The first record is the carrier that actually operated this flight.  The other three are codeshares. 
+Example below.  The first record is the carrier that actually operated this flight.  The other three are codeshares.
+This sample pulled from Google spreadsheet.  The date format is different than the raw data file.
 
 ```
 flight_id,carrier_fs_code,carrier_iata_code,carrier_icao_code,flight_number,tail_number,is_codeshare,codeshare_relationship,marketing_carrier_fs_code,marketing_carrier_iata_code,marketing_carrier_icao_code,marketing_flight_number,scheduled_equipment,actual_equipment,actual_equipment_icao_code,status,departure_airport_fs_code,departure_airport_iata_code,departure_airport_icao_code,departure_terminal,departure_gate,published_departure,published_departure_utc,scheduled_gate_departure,scheduled_gate_departure_utc,actual_gate_departure,actual_gate_departure_utc,scheduled_runway_departure,scheduled_runway_departure_utc,actual_runway_departure,actual_runway_departure_utc,arrival_airport_fs_code,arrival_airport_iata_code,arrival_airport_icao_code,arrival_terminal,arrival_gate,baggage_claim,published_arrival,published_arrival_utc,scheduled_gate_arrival,scheduled_gate_arrival_utc,actual_gate_arrival,actual_gate_arrival_utc,scheduled_runway_arrival,scheduled_runway_arrival_utc,actual_runway_arrival,actual_runway_arrival_utc,diverted_airport_fs_code,diverted_airport_iata_code,diverted_airport_icao_code,scheduled_air_minutes,air_minutes,scheduled_block_minutes,block_minutes,departure_date_local,departure_date_local_utc,arrival_date_local,arrival_date_local_utc
@@ -158,6 +159,15 @@ flight_id,carrier_fs_code,carrier_iata_code,carrier_icao_code,flight_number,tail
 284636939,WS,WS,WJA,652,,t,L,WS,AA,AAL,5194,73H,,,L,YYC,YYC,CYYC,,D44,1/1/2013 12:20:00,1/1/2013 7:20:00,1/1/2013 12:20:00,1/1/2013 7:20:00,1/1/2013 12:18:00,1/1/2013 7:18:00,1/1/2013 12:30:00,1/1/2013 7:30:00,1/1/2013 12:32:00,1/1/2013 7:32:00,YYZ,YYZ,CYYZ,3,C39,,1/1/2013 6:04:00,1/1/2013 11:04:00,1/1/2013 6:04:00,1/1/2013 11:04:00,1/1/2013 6:06:00,1/1/2013 11:06:00,1/1/2013 5:57:00,1/1/2013 10:57:00,1/1/2013 5:51:00,1/1/2013 10:51:00,,,,207,199,224,228,1/1/2013,1/1/2013,1/1/2013,1/1/2013
 
 ```
+
+Sample from raw data file showing the datetime format, which is in 24 hour clock.
+```
+ flightstats_id | airline_iata_code | airline_icao_code | flight_number | scheduled_aircraft_type | is_codeshare | codeshare_designator | marketing_airline_iata_code | marketing_airline_icao_code | marketing_flight_number | origin_iata_code | origin_icao_code | origin_terminal | origin_gate | destination_iata_code | destination_icao_code | destination_terminal | destination_gate | baggage_claim | last_known_status | departure_date | published_departure | scheduled_gate_departure | actual_gate_departure | arrival_date |  published_arrival  | scheduled_gate_arrival | actual_gate_arrival 
+      215086408 | Z3                |                   | 45            | DHC                     | f            |                      | Z3                          |                             | 45                      | KTN              | PAKT             |                 |             | MTM                   |                       |                      |                  |               | S                 | 2011-01-21     | 2011-01-22 00:00:00 | 2011-01-22 00:00:00      |                       | 2011-01-21   | 2011-01-22 00:12:00 | 2011-01-22 00:12:00    | 
+      215086427 | Z3                |                   | 54            | DHC                     | f            |                      | Z3                          |                             | 54                      | HYL              |                  |                 |             | KTN                   | PAKT                  |                      |                  |               | S                 | 2011-01-21     | 2011-01-21 18:40:00 | 2011-01-21 18:40:00      |                       | 2011-01-21   | 2011-01-21 18:56:00 | 2011-01-21 18:56:00    | 
+
+```
+
 
 ## Note about Scheduled Airtime
 If Scheduled Airtime is provided in the data record it is sourced from flight plans provided by the carrier to the FAA.
