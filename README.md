@@ -61,3 +61,25 @@ The Redis instance is available on the following node (on the default port):
 
     cluster-7-slave-11.sl.hackreduce.net
 
+
+### Servers
+Flight R -- cluster-7-slave-12.sl.hackreduce.net
+
+Buffalo -- cluster-7-slave-13.sl.hackreduce.net
+
+Amadeus -- cluster-7-slave-14.sl.hackreduce.net
+
+4 -- cluster-7-slave-15.sl.hackreduce.net
+
+420 -- cluster-7-slave-16.sl.hackreduce.net -- Shared
+
+Bacon -- cluster-7-slave-16.sl.hackreduce.net -- Shared
+
+Smart Trip Planner -- cluster-7-slave-17.sl.hackreduce.net
+
+Data Slaves -- cluster-7-slave-18.sl.hackreduce.net
+
+Team Awesome -- cluster-7-slave-19.sl.hackreduce.net
+
+9 -- cluster-7-slave-00.sl.hackreduce.net
+
